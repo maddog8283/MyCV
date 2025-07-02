@@ -111,7 +111,8 @@ export default class Profile extends Component {
             <i className="fab fa-facebook-f grey-text text-darken-4"></i>
             <i className="fab fa-twitter grey-text text-darken-4"></i>
             <i className="fab fa-google-plus-g grey-text text-darken-4"></i>
-            <i className="fab fa-instagram grey-text text-darken-4"></i>
+            <Link to="https://www.instagram.com/daniel_jacob35/">
+            <i className="fab fa-instagram grey-text text-darken-4"></i></Link>
           </div>
         </div>
       </div>
