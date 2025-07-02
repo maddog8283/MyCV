@@ -8,7 +8,7 @@ class Navbar extends Component {
           <div className="container">
             <div className="nav-wrapper">
               <Link to="/" className="brand-logo">
-                CV
+                <i className="fas fa-home"></i>
               </Link>
               <Link to="/" data-terget="side-nav" className="sidenav-trigger">
                 <i className="material-icons">Menu</i>
