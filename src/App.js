@@ -5,6 +5,7 @@ import "materialize-css/dist/js/materialize.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import About from "./component/About";
 import Skils from "./component/Skils";
@@ -15,6 +16,7 @@ import Hobby from "./component/Hobby";
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
