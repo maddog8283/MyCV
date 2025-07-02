@@ -35,8 +35,8 @@ class Navbar extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/portofolios">
-                    <i className="fas fa-address-card"></i>Portofolios
+                  <Link to="/hobby">
+                    <i className="fas fa-address-card"></i>Hobby
                   </Link>
                 </li>
               </ul>
@@ -65,8 +65,8 @@ class Navbar extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/portofolios">
-              <i className="fas fa-address-card"></i>Portofolios
+            <Link to="/hobby">
+              <i className="fas fa-address-card"></i>Hobby
             </Link>
           </li>
         </ul>
